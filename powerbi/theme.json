@@ -1,0 +1,37 @@
+{
+  "name": "Portfolio Theme",
+  "dataColors": [
+    "#4F46E5",
+    "#06B6D4",
+    "#F59E0B",
+    "#2D3142",
+    "#EF8354",
+    "#4F5D75",
+    "#BFC0C0"
+  ],
+  "background": "#0B1020",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#F59E0B",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI",
+      "fontSize": 16,
+      "color": "#FFFFFF"
+    },
+    "callout": {
+      "fontFace": "Segoe UI",
+      "fontSize": 26,
+      "color": "#FFFFFF"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 12,
+      "color": "#D7DEFF"
+    },
+    "header": {
+      "fontFace": "Segoe UI",
+      "fontSize": 12,
+      "color": "#FFFFFF"
+    }
+  }
+}

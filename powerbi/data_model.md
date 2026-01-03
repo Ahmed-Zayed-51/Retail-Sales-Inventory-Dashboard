@@ -1,0 +1,5 @@
+dim_dates[Date] 1-* fact_sales[Date]
+dim_products[ProductID] 1-* fact_sales[ProductID]
+dim_stores[StoreID] 1-* fact_sales[StoreID]
+dim_products[ProductID] 1-* fact_inventory_snapshots[ProductID]
+dim_stores[StoreID] 1-* fact_inventory_snapshots[StoreID]

@@ -1,0 +1,11 @@
+Total Revenue = SUM(fact_sales[Revenue])
+Gross Profit = SUM(fact_sales[GrossProfit])
+Gross Margin % = DIVIDE([Gross Profit],[Total Revenue])
+Transactions = DISTINCTCOUNT(fact_sales[TransactionID])
+Avg Basket Value = DIVIDE([Total Revenue],[Transactions])
+Stockout Rate % =
+DIVIDE(
+    CALCULATE(COUNTROWS(fact_inventory_snapshots), fact_inventory_snapshots[StockoutFlag]=1),
+    COUNTROWS(fact_inventory_snapshots)
+)
+Revenue YTD = TOTALYTD([Total Revenue], dim_dates[Date])

@@ -1,0 +1,27 @@
+== sales ==
+rows=45,000 cols=11
+ TransactionID       Date  StoreID  ProductID  Units  DiscountPct  UnitPrice  UnitCost  Revenue   COGS  GrossProfit
+             1 2024-05-04        8        189      1         0.20      72.27     35.30    72.27  35.30        36.97
+             2 2024-04-06       21        265      2         0.05      86.89     62.20   173.78 124.40        49.38
+             3 2024-12-05       20        102      3         0.00     216.67    159.67   650.01 479.01       171.00
+
+== inventory ==
+rows=18,000 cols=6
+SnapshotDate  StoreID  ProductID  OnHandUnits  ReorderPoint  StockoutFlag
+  2024-11-15       14        227          190            11             0
+  2024-11-12       14        125          156            11             0
+  2024-05-25       19        312          153            24             0
+
+== products ==
+rows=400 cols=5
+ ProductID    Category    Brand  UnitCost  ListPrice
+         1 Electronics Brand_20     55.05     192.55
+         2        Kids Brand_16    165.40     190.21
+         3      Sports  Brand_7    140.85     231.63
+
+== stores ==
+rows=30 cols=3
+ StoreID     City StoreType
+       1    Cairo    Street
+       2 Mansoura      Mall
+       3    Aswan    Street
