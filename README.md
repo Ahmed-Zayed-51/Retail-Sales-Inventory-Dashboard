@@ -62,16 +62,16 @@ retail-sales-inventory-dashboard/
 ## Dashboard Preview
 
 ### Executive Overview
-![Executive Overview](assets/overview.png)
+![Executive Overview](assets/overview.jpg)
 
 ### Category Deep-Dive
-![Category Deep Dive](assets/category.png)
+![Category Deep Dive](assets/category.jpg)
 
 ### Inventory Risk
-![Inventory Risk](assets/inventory.png)
+![Inventory Risk](assets/inventory.jpg)
 
 ### Executive Insights & Recommendations
-![Insights](assets/insights.png)
+![Insights](assets/insights.jpg)
 
 > Make sure the images are inside the `assets/` folder with the **same names** shown above.
 
